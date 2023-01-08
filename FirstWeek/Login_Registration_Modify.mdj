@@ -3164,6 +3164,32 @@
 									"width": 201,
 									"height": 51,
 									"text": "If there's no such TAN, report error message(delete TAN once it's used for registration)"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGFk43Juo+nFiU=",
+									"_parent": {
+										"$ref": "AAAAAAGFVJGSJx7TMow="
+									},
+									"font": "Arial;13;0",
+									"left": 176,
+									"top": 288,
+									"width": 104,
+									"height": 25,
+									"text": "login function"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGFk43tmY+rAUg=",
+									"_parent": {
+										"$ref": "AAAAAAGFVJGSJx7TMow="
+									},
+									"font": "Arial;13;0",
+									"left": 176,
+									"top": 320,
+									"width": 104,
+									"height": 25,
+									"text": "registe function"
 								}
 							]
 						}
