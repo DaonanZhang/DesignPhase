@@ -467,7 +467,7 @@
 														"$ref": "AAAAAAGFl3smLH4rraw="
 													},
 													"edgePosition": 1,
-													"text": "2 : redirect(about us page)"
+													"text": "2 : render(AboutUs.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -573,14 +573,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSUt0JNubOQQ="
 									},
-									"name": "redirect(about us page)",
+									"name": "render",
 									"source": {
 										"$ref": "AAAAAAGFk4w937d2ZfE="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSUvPnduvma8="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "AboutUs.html"
 								}
 							],
 							"participants": [

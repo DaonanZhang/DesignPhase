@@ -1017,7 +1017,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGFblWY8gnufKo="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1366,7 +1367,7 @@
 														"$ref": "AAAAAAGFbnSLjwvf74U="
 													},
 													"edgePosition": 1,
-													"text": "1 : get()"
+													"text": "1 : post()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1905,7 +1906,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFbnMiZwuL3uM="
 									},
-									"name": "get()",
+									"name": "post()",
 									"source": {
 										"$ref": "AAAAAAGFbnPUeQud9FY="
 									},
@@ -2016,7 +2017,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGFbnMiZguKJBA="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2024,7 +2026,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGFbnMiZguKJBA="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						}
 					]
 				},

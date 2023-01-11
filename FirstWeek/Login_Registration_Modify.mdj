@@ -945,7 +945,7 @@
 												"$ref": "AAAAAAGFVJbL3SAfoh4="
 											},
 											"edgePosition": 1,
-											"text": "3 : match()"
+											"text": "3 : is_valid()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1168,7 +1168,7 @@
 												"$ref": "AAAAAAGFVJdNByBN988="
 											},
 											"edgePosition": 1,
-											"text": "5 : redirect(main page)"
+											"text": "5 : redirect_signal"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1403,7 +1403,7 @@
 													"top": 47,
 													"width": 215.68310546875,
 													"height": 13,
-													"text": "user.views.RegistrationPageView"
+													"text": "user.views.RegistrationView"
 												},
 												{
 													"_type": "LabelView",
@@ -1616,7 +1616,7 @@
 												"$ref": "AAAAAAGFl4Sgy0ksfVI="
 											},
 											"edgePosition": 1,
-											"text": "8 : redirect(registration page)"
+											"text": "8 : redirect(registration.html)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1829,9 +1829,9 @@
 												"$ref": "AAAAAAGFVJqE7SEXwc0="
 											},
 											"font": "Arial;13;0",
-											"left": 662,
+											"left": 648,
 											"top": 476,
-											"width": 109.08447265625,
+											"width": 136.5634765625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1839,7 +1839,7 @@
 												"$ref": "AAAAAAGFVJqE7SEYfZQ="
 											},
 											"edgePosition": 1,
-											"text": "10 : checkFormat()"
+											"text": "10 : checkFormatSignal"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1940,9 +1940,9 @@
 												"$ref": "AAAAAAGFVJropiFPses="
 											},
 											"font": "Arial;13;0",
-											"left": 550,
+											"left": 537,
 											"top": 499,
-											"width": 84.3095703125,
+											"width": 111.0205078125,
 											"height": 13,
 											"alpha": 1.610773997943752,
 											"distance": 25.019992006393608,
@@ -1950,7 +1950,7 @@
 												"$ref": "AAAAAAGFVJropiFQJz8="
 											},
 											"edgePosition": 1,
-											"text": "11 : isValid()"
+											"text": "11 : check_format()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2275,9 +2275,9 @@
 												"$ref": "AAAAAAGFVJ5ix9rJFxo="
 											},
 											"font": "Arial;13;0",
-											"left": 958,
+											"left": 944,
 											"top": 545,
-											"width": 92.94873046875,
+											"width": 120.427734375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -2285,7 +2285,7 @@
 												"$ref": "AAAAAAGFVJ5ix9rKIsc="
 											},
 											"edgePosition": 1,
-											"text": "14 : checkTAN()"
+											"text": "14 : checkTANSignal"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2512,7 +2512,7 @@
 												"$ref": "AAAAAAGFVJ6bRtrivxY="
 											},
 											"edgePosition": 1,
-											"text": "15 : isValid()"
+											"text": "15 : is_Valid()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3229,7 +3229,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "match()",
+							"name": "is_valid()",
 							"source": {
 								"$ref": "AAAAAAGFVJOcmR9SmE4="
 							},
@@ -3258,7 +3258,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "redirect(main page)",
+							"name": "redirect_signal",
 							"source": {
 								"$ref": "AAAAAAGFVJOcmR9SmE4="
 							},
@@ -3303,14 +3303,15 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "redirect(registration page)",
+							"name": "redirect",
 							"source": {
 								"$ref": "AAAAAAGFVJiMwiCfyzo="
 							},
 							"target": {
 								"$ref": "AAAAAAGFVJHjAh7pPQU="
 							},
-							"messageSort": "reply"
+							"messageSort": "reply",
+							"arguments": "registration.html"
 						},
 						{
 							"_type": "UMLMessage",
@@ -3333,7 +3334,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "checkFormat()",
+							"name": "checkFormatSignal",
 							"source": {
 								"$ref": "AAAAAAGFVJiMwiCfyzo="
 							},
@@ -3347,7 +3348,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "isValid()",
+							"name": "check_format()",
 							"source": {
 								"$ref": "AAAAAAGFVJKoRR8tSTg="
 							},
@@ -3390,7 +3391,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "checkTAN()",
+							"name": "checkTANSignal",
 							"source": {
 								"$ref": "AAAAAAGFVJiMwiCfyzo="
 							},
@@ -3404,7 +3405,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "isValid()",
+							"name": "is_Valid()",
 							"source": {
 								"$ref": "AAAAAAGFVJ4R9NqpTEk="
 							},
@@ -3540,7 +3541,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFVJGSJx7SEDI="
 							},
-							"name": "user.views.RegistrationPageView",
+							"name": "user.views.RegistrationView",
 							"represent": {
 								"$ref": "AAAAAAGFVJiMwiCeZWc="
 							},
@@ -3644,8 +3645,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGFVJGSJx7R/XA="
 					},
-					"name": "Role6",
-					"type": ""
+					"name": "Role6"
 				},
 				{
 					"_type": "UMLAttribute",

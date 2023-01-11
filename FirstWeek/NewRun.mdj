@@ -698,7 +698,7 @@
 														"$ref": "AAAAAAGFl36+F61OPd8="
 													},
 													"edgePosition": 1,
-													"text": "2 : redirect(creatPage)"
+													"text": "2 : render(Creat.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1477,7 +1477,7 @@
 														"$ref": "AAAAAAGFkU5Fmo6F42M="
 													},
 													"edgePosition": 1,
-													"text": "9 : redirect(ConfigurePage, CSVInfo)"
+													"text": "9 : redirectSignal(ConfigurePage, CSVInfo)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -2544,17 +2544,17 @@
 														"$ref": "AAAAAAGFkWEY34/E6p0="
 													},
 													"font": "Arial;13;0",
-													"left": 352,
+													"left": 336,
 													"top": 604,
 													"width": 203.79150390625,
 													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 10,
+													"alpha": 0.5317243243283265,
+													"distance": 19.72308292331602,
 													"hostEdge": {
 														"$ref": "AAAAAAGFkWEY34/FcdM="
 													},
 													"edgePosition": 1,
-													"text": "14 : redirect(generatedConfigPage)"
+													"text": "14 : render(GeneratedConfig.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -2888,7 +2888,7 @@
 														"$ref": "AAAAAAGFkWNrSZAuxxU="
 													},
 													"edgePosition": 1,
-													"text": "17 : isValid()"
+													"text": "17 : is_Valid()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -3440,7 +3440,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSSz6B9Nrx/0="
 									},
-									"name": "redirect(creatPage)",
+									"name": "render(Creat.html)",
 									"source": {
 										"$ref": "AAAAAAGFSTAtMdPR+l8="
 									},
@@ -3540,14 +3540,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSSz6B9Nrx/0="
 									},
-									"name": "redirect(ConfigurePage, CSVInfo)",
+									"name": "redirectSignal",
 									"source": {
 										"$ref": "AAAAAAGFVG8OHl0vXCs="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSTAtMdPR+l8="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "ConfigurePage, CSVInfo"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3614,14 +3615,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSSz6B9Nrx/0="
 									},
-									"name": "redirect(generatedConfigPage)",
+									"name": "render",
 									"source": {
 										"$ref": "AAAAAAGFSTH6yNRgX0E="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSS3RctOBwag="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "GeneratedConfig.html"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3657,7 +3659,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSSz6B9Nrx/0="
 									},
-									"name": "isValid()",
+									"name": "is_Valid()",
 									"source": {
 										"$ref": "AAAAAAGFkV+7i49v7A4="
 									},

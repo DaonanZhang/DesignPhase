@@ -917,7 +917,7 @@
 														"$ref": "AAAAAAGFkd8jX4Zn/v8="
 													},
 													"edgePosition": 1,
-													"text": "5 : redirect(generatedResultPage)"
+													"text": "5 : render(GeneratedResult.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1019,17 +1019,17 @@
 														"$ref": "AAAAAAGFVE9XwNYll2o="
 													},
 													"font": "Arial;13;0",
-													"left": 217,
+													"left": 168,
 													"top": 328,
-													"width": 119.22802734375,
+													"width": 155.37158203125,
 													"height": 13,
-													"alpha": 0.21866889881512838,
-													"distance": 46.09772228646444,
+													"alpha": 0.6202491481451435,
+													"distance": 17.204650534085253,
 													"hostEdge": {
 														"$ref": "AAAAAAGFVE9XwdYm2gQ="
 													},
 													"edgePosition": 1,
-													"text": "6 : downloadResult()"
+													"text": "6 : post(downloadRequest)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1709,17 +1709,17 @@
 														"$ref": "AAAAAAGFSVm6CWE5PXo="
 													},
 													"font": "Arial;13;0",
-													"left": 170,
-													"top": 560,
-													"width": 121.3798828125,
+													"left": 146,
+													"top": 527,
+													"width": 169.5458984375,
 													"height": 13,
-													"alpha": 1.4994895726695407,
-													"distance": 14.035668847618199,
+													"alpha": -1.5152983753953508,
+													"distance": 18.027756377319946,
 													"hostEdge": {
 														"$ref": "AAAAAAGFSVm6CWE6b+g="
 													},
 													"edgePosition": 1,
-													"text": "11 : result as .csv file"
+													"text": "11 : response(CSVFile:result)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -2190,9 +2190,9 @@
 														"$ref": "AAAAAAGFVFa3Qtbbb+8="
 													},
 													"font": "Arial;13;0",
-													"left": 393,
+													"left": 335,
 													"top": 716,
-													"width": 115.5908203125,
+													"width": 230.47705078125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -2200,7 +2200,7 @@
 														"$ref": "AAAAAAGFVFa3QtbcadE="
 													},
 													"edgePosition": 1,
-													"text": "14 : ErrorMessage()"
+													"text": "14 : renderErrorSignal(ErrorInformation)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -2289,8 +2289,8 @@
 												"$ref": "AAAAAAGFSU+aepuFfb4="
 											},
 											"font": "Arial;13;0",
-											"left": 312,
-											"top": 640,
+											"left": 336,
+											"top": 632,
 											"width": 72,
 											"height": 51,
 											"text": "if not finished yet"
@@ -2457,9 +2457,9 @@
 														"$ref": "AAAAAAGFVFc8V9bx8MU="
 													},
 													"font": "Arial;13;0",
-													"left": 203,
+													"left": 134,
 													"top": 732,
-													"width": 54.18359375,
+													"width": 193.62255859375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -2467,7 +2467,7 @@
 														"$ref": "AAAAAAGFVFc8V9byLiY="
 													},
 													"edgePosition": 1,
-													"text": "15 : Error"
+													"text": "15 : render(ErrorInformation.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -3125,17 +3125,17 @@
 														"$ref": "AAAAAAGFkeXvOIdr9AE="
 													},
 													"font": "Arial;13;0",
-													"left": 503,
+													"left": 478,
 													"top": 1065,
-													"width": 145.24072265625,
+													"width": 181.3779296875,
 													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 10,
+													"alpha": 0.8960559943277389,
+													"distance": 12.806248474865697,
 													"hostEdge": {
 														"$ref": "AAAAAAGFkeXvOIds/GM="
 													},
 													"edgePosition": 1,
-													"text": "21 : redirect(ConfigPage)"
+													"text": "21 : renderSignal(ConfigPage)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -3237,17 +3237,17 @@
 														"$ref": "AAAAAAGFkeYx9oeBV7M="
 													},
 													"font": "Arial;13;0",
-													"left": 124,
-													"top": 1108,
+													"left": 112,
+													"top": 1112,
 													"width": 213.1796875,
 													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 10,
+													"alpha": 0.8224186628331589,
+													"distance": 19.1049731745428,
 													"hostEdge": {
 														"$ref": "AAAAAAGFkeYx9oeCO/U="
 													},
 													"edgePosition": 1,
-													"text": "22 : redirect(generatedConfigPage)"
+													"text": "22 : render(GeneratedConfig.html)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -3328,6 +3328,19 @@
 											"activation": {
 												"$ref": "AAAAAAGFkeYx9oeGIek="
 											}
+										},
+										{
+											"_type": "UMLTextBoxView",
+											"_id": "AAAAAAGFoYU5kEZz+RM=",
+											"_parent": {
+												"$ref": "AAAAAAGFSU+aepuFfb4="
+											},
+											"font": "Arial;13;0",
+											"left": 144,
+											"top": 464,
+											"width": 171.154296875,
+											"height": 51,
+											"text": "response = HttpResponse(content_type = 'result/csv')"
 										}
 									]
 								}
@@ -3397,14 +3410,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "redirect(generatedResultPage)",
+									"name": "render",
 									"source": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSU+/XJuW3b0="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "GeneratedResult.html"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3412,7 +3426,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "downloadResult()",
+									"name": "post(downloadRequest)",
 									"source": {
 										"$ref": "AAAAAAGFSU+/XJuW3b0="
 									},
@@ -3484,7 +3498,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "result as .csv file",
+									"name": "response(CSVFile:result)",
 									"source": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
@@ -3528,14 +3542,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "ErrorMessage()",
+									"name": "renderErrorSignal",
 									"source": {
 										"$ref": "AAAAAAGFSVCvxZwH1uM="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "ErrorInformation"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3543,14 +3558,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "Error",
+									"name": "render",
 									"source": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSU+/XJuW3b0="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "ErrorInformation.html"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3632,14 +3648,15 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "redirect(ConfigPage)",
+									"name": "renderSignal",
 									"source": {
 										"$ref": "AAAAAAGFkePdcIbp2zQ="
 									},
 									"target": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "ConfigPage"
 								},
 								{
 									"_type": "UMLMessage",
@@ -3647,7 +3664,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGFSU+aepuE3L8="
 									},
-									"name": "redirect",
+									"name": "render",
 									"source": {
 										"$ref": "AAAAAAGFSVBbsJvk7u0="
 									},
@@ -3655,7 +3672,7 @@
 										"$ref": "AAAAAAGFSU+/XJuW3b0="
 									},
 									"messageSort": "reply",
-									"arguments": "generatedConfigPage"
+									"arguments": "GeneratedConfig.html"
 								}
 							],
 							"participants": [
