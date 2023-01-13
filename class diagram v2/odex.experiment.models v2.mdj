@@ -184,7 +184,7 @@
 											"top": 487,
 											"width": 262,
 											"height": 13,
-											"text": "Experiment"
+											"text": "Experiments"
 										},
 										{
 											"_type": "LabelView",
@@ -627,7 +627,7 @@
 											"top": 479,
 											"width": 231,
 											"height": 13,
-											"text": "FinishedExperiment"
+											"text": "FinishedExperiments"
 										},
 										{
 											"_type": "LabelView",
@@ -878,7 +878,7 @@
 											"top": 639,
 											"width": 230,
 											"height": 13,
-											"text": "PendingExperiment"
+											"text": "PendingExperiments"
 										},
 										{
 											"_type": "LabelView",
@@ -1879,7 +1879,7 @@
 											"top": 775,
 											"width": 238.6591796875,
 											"height": 13,
-											"text": "Hyperparameter"
+											"text": "Hyperparameters"
 										},
 										{
 											"_type": "LabelView",
@@ -1968,7 +1968,7 @@
 											"top": 813,
 											"width": 238.6591796875,
 											"height": 13,
-											"text": "+odm_name: OutlierDetectionMethod",
+											"text": "+odm_name: OutlierDetectionMethods",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2113,7 +2113,7 @@
 											"top": 783,
 											"width": 217.66748046875,
 											"height": 13,
-											"text": "OutlierDetectionMethod"
+											"text": "OutlierDetectionMethods"
 										},
 										{
 											"_type": "LabelView",
@@ -4943,7 +4943,7 @@
 											"top": 207,
 											"width": 151,
 											"height": 13,
-											"text": "User"
+											"text": "Users"
 										},
 										{
 											"_type": "LabelView",
@@ -5462,7 +5462,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGFjLwXEe/JrN4="
 											},
-											"name": "Experiment",
+											"name": "Experiments",
 											"ownedElements": [
 												{
 													"_type": "UMLAssociation",
@@ -5708,7 +5708,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGFjLwXEe/JrN4="
 											},
-											"name": "FinishedExperiment",
+											"name": "FinishedExperiments",
 											"ownedElements": [
 												{
 													"_type": "UMLGeneralization",
@@ -5770,7 +5770,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGFjLwXEe/JrN4="
 											},
-											"name": "PendingExperiment",
+											"name": "PendingExperiments",
 											"ownedElements": [
 												{
 													"_type": "UMLGeneralization",
@@ -5893,7 +5893,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGFjLwXEe/JrN4="
 											},
-											"name": "Hyperparameter",
+											"name": "Hyperparameters",
 											"ownedElements": [
 												{
 													"_type": "UMLGeneralization",
@@ -5948,7 +5948,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGFjLwXEe/JrN4="
 											},
-											"name": "OutlierDetectionMethod",
+											"name": "OutlierDetectionMethods",
 											"ownedElements": [
 												{
 													"_type": "UMLAssociation",
@@ -6223,7 +6223,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGFcjG57TMIr3U="
 					},
-					"name": "User"
+					"name": "Users"
 				}
 			]
 		}

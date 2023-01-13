@@ -850,13 +850,30 @@
 											"height": 13,
 											"text": "+ajax_load_security_question(request)",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFq7zq+tTsBRs=",
+											"_parent": {
+												"$ref": "AAAAAAGFjL2MxvAYwAk="
+											},
+											"model": {
+												"$ref": "AAAAAAGFq7zq2NTpiAE="
+											},
+											"font": "Arial;13;0",
+											"left": 853,
+											"top": 413,
+											"width": 236.36767578125,
+											"height": 13,
+											"text": "+ajax_load_box(request)",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 848,
 									"top": 363,
 									"width": 246.36767578125,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -11032,6 +11049,25 @@
 															"_id": "AAAAAAGFqAiS99HVpMw=",
 															"_parent": {
 																"$ref": "AAAAAAGFpC7vq4tcLsw="
+															},
+															"name": "request",
+															"type": ""
+														}
+													]
+												},
+												{
+													"_type": "UMLOperation",
+													"_id": "AAAAAAGFq7zq2NTpiAE=",
+													"_parent": {
+														"$ref": "AAAAAAGFjL2MxfAPnGU="
+													},
+													"name": "ajax_load_box",
+													"parameters": [
+														{
+															"_type": "UMLParameter",
+															"_id": "AAAAAAGFq7z6r9euaPM=",
+															"_parent": {
+																"$ref": "AAAAAAGFq7zq2NTpiAE="
 															},
 															"name": "request",
 															"type": ""
