@@ -18476,7 +18476,7 @@
 											"top": 1207,
 											"width": 135,
 											"height": 13,
-											"text": "SecurityQuestion"
+											"text": "Questions"
 										},
 										{
 											"_type": "LabelView",
@@ -18583,7 +18583,7 @@
 											"top": 1247,
 											"width": 135,
 											"height": 13,
-											"text": "+answer_id",
+											"text": "+question_id",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18743,7 +18743,7 @@
 											"top": 1215,
 											"width": 134,
 											"height": 13,
-											"text": "SecurityAnswer"
+											"text": "User_Question"
 										},
 										{
 											"_type": "LabelView",
@@ -18815,7 +18815,7 @@
 											"top": 1238,
 											"width": 134,
 											"height": 13,
-											"text": "+user_id",
+											"text": "+user_name",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18849,7 +18849,7 @@
 											"top": 1268,
 											"width": 134,
 											"height": 13,
-											"text": "+answer_id",
+											"text": "+question_id",
 											"horizontalAlignment": 0
 										}
 									],
@@ -24167,7 +24167,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGFcjG57TMIr3U="
 					},
-					"name": "SecurityQuestion",
+					"name": "Questions",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -24270,7 +24270,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGFp67sT02QnBY="
 							},
-							"name": "questions"
+							"name": "questions",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -24278,8 +24279,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFp67sT02QnBY="
 							},
-							"name": "answer_id",
-							"type": ""
+							"name": "question_id"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -24342,7 +24342,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGFcjG57TMIr3U="
 					},
-					"name": "SecurityAnswer",
+					"name": "User_Question",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -24421,8 +24421,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFp68xVVcFNVc="
 							},
-							"name": "user_id",
-							"type": ""
+							"name": "user_name"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -24439,8 +24438,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFp68xVVcFNVc="
 							},
-							"name": "answer_id",
-							"type": ""
+							"name": "question_id"
 						}
 					],
 					"operations": [
